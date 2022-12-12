@@ -5,6 +5,7 @@ import com.krzysztof.computerprice.repository.InvoiceRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -20,6 +21,10 @@ public class InvoiceService {
 
     public Optional<Invoice> findById(int id) {
         return invoiceRepository.findById(id);
+    }
+
+    public List<Invoice> findAll() {
+        return invoiceRepository.findAll();
     }
 
     /*
