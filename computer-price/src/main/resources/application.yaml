@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  h2.console:
+    enabled: true
+    path: /console
+  datasource:
+    url: jdbc:h2:file:C:/dev/projects/computer-price/computer-price
+  jpa:
+    hibernate:
+      ddl-auto: create-drop

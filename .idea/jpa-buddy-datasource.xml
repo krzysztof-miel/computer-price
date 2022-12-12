@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="0725758d-89fb-4d34-b565-a93a8a5ffb3c" name="computer-price" url="jdbc:h2:file:~/h2/computer-price" driverClass="org.h2.Driver" />
+    </data-sources>
+    <data-source-infos>
+      <data-source-info id="" persistence-unit-name="Default" />
+    </data-source-infos>
+  </component>
+</project>

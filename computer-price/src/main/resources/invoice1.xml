@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<faktura>
+    <komputer>
+        <nazwa>dell</nazwa>
+        <data_ksiegowania>2022-01-03</data_ksiegowania>
+        <koszt_USD>345.0</koszt_USD>
+        <koszt_PLN>1394.63</koszt_PLN>
+    </komputer>
+    <komputer>
+        <nazwa>hp</nazwa>
+        <data_ksiegowania>2022-01-03</data_ksiegowania>
+        <koszt_USD>543.0</koszt_USD>
+        <koszt_PLN>2195.02</koszt_PLN>
+    </komputer>
+    <komputer>
+        <nazwa>apple</nazwa>
+        <data_ksiegowania>2022-01-03</data_ksiegowania>
+        <koszt_USD>346.0</koszt_USD>
+        <koszt_PLN>1398.67</koszt_PLN>
+    </komputer>
+</faktura>
